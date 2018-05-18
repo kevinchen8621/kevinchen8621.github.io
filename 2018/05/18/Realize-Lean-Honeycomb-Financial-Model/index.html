@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="收藏,企业管理," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="来源：首席财务官2015年1月第1期文/田茂永 　作为“精益财务”思想的首创者，《首席财务官》将2011年定义为“精益财务时代”的元年。之所以确定这样一个节点作为起始点，是因为这一年是标准的经济学意义上的人口红利的刘易斯拐点——“根据国家统计局公布的数据显示，2011年，中国15～64岁劳动年龄人口比重自2002年以来首次出现下降，而2012年，我国劳动适龄人口比2011年减少了345万”。从常识">
+<meta name="keywords" content="收藏,企业管理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="实现精益的蜂巢财务模型">
+<meta property="og:url" content="http://kevinchen8621.github.io/2018/05/18/Realize-Lean-Honeycomb-Financial-Model/index.html">
+<meta property="og:site_name" content="如理的博客">
+<meta property="og:description" content="来源：首席财务官2015年1月第1期文/田茂永 　作为“精益财务”思想的首创者，《首席财务官》将2011年定义为“精益财务时代”的元年。之所以确定这样一个节点作为起始点，是因为这一年是标准的经济学意义上的人口红利的刘易斯拐点——“根据国家统计局公布的数据显示，2011年，中国15～64岁劳动年龄人口比重自2002年以来首次出现下降，而2012年，我国劳动适龄人口比2011年减少了345万”。从常识">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://kevinchen8621.github.io/images/p2.jpg">
+<meta property="og:image" content="http://kevinchen8621.github.io/images/p3.jpg">
+<meta property="og:updated_time" content="2018-05-18T12:33:57.102Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="实现精益的蜂巢财务模型">
+<meta name="twitter:description" content="来源：首席财务官2015年1月第1期文/田茂永 　作为“精益财务”思想的首创者，《首席财务官》将2011年定义为“精益财务时代”的元年。之所以确定这样一个节点作为起始点，是因为这一年是标准的经济学意义上的人口红利的刘易斯拐点——“根据国家统计局公布的数据显示，2011年，中国15～64岁劳动年龄人口比重自2002年以来首次出现下降，而2012年，我国劳动适龄人口比2011年减少了345万”。从常识">
+<meta name="twitter:image" content="http://kevinchen8621.github.io/images/p2.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://kevinchen8621.github.io/2018/05/18/Realize-Lean-Honeycomb-Financial-Model/"/>
+
+
+
+
+
+  <title>实现精益的蜂巢财务模型 | 如理的博客</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">如理的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">万里一僧归</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://kevinchen8621.github.io/2018/05/18/Realize-Lean-Honeycomb-Financial-Model/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="如理">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="如理的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">实现精益的蜂巢财务模型</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-18T20:30:42+08:00">
+                2018-05-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/转载/" itemprop="url" rel="index">
+                    <span itemprop="name">转载</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>来源：首席财务官2015年1月第1期<br>文/田茂永</p>
+<p>　作为“精益财务”思想的首创者，《首席财务官》将2011年定义为“精益财务时代”的元年。之所以确定这样一个节点作为起始点，是因为这一年是标准的经济学意义上的人口红利的刘易斯拐点——“根据国家统计局公布的数据显示，2011年，中国15～64岁劳动年龄人口比重自2002年以来首次出现下降，而2012年，我国劳动适龄人口比2011年减少了345万”。从常识而言，人口红利与体制红利、全球化红利一起，向来被称为是推动中国经济三十年高增长的三大红利，其中人口红利恰恰是能够将其他两种红利转化为经济价值的唯一介质。</p>
+<p>　　人口红利的结束意味着粗放式经营时代的完结，着眼于下一个30年经济周期的中国领先企业们，必须学会用更少的资源获得更高的产出。在这个转型中，将资源极度短缺条件下诞生的丰田精益生产模式的诸多理念嫁接在企业运营资源的管理模式上，应该是一个不错的范式转换。</p>
+<p>　　通过3年多以来持续不断的精益财务转型案例的研究和报道，《首席财务官》一直试图建立筑基于中国经济体宏微观环境的可复制、可推广的精益财务管理模型，而在我们的理想中，这一模型应在相当长时间范围内具有实用性很强的指导价值。换言之，这样的精益财务管理模型，应该具有较好的稳定性，可以适应不同行业、不同周期、不同学习曲线等个性化需求。因此，我们借鉴大自然中以结构稳定性著称的蜂巢结构，作为达成精益财务的状态表达，而蜂巢的六边分别对应全面预算管理、战略成本管理、动态资金管理、内部控制、兼并重组、IT与团队等六大精益财务要素。</p>
+<p>　　对广大CFO来说，在经济增长失速、不确定性浓雾日益蔓延的当下，大力推进整个财务体系加速趋近于这个拥有完美结构的蜂巢财务模型，是再好不过的工作抓手。</p>
+<p>　　从生物学角度而言，蜂巢是自然界中最出色的设计。</p>
+<p>　　蜜蜂蜂房是严格的六角柱状体，它的一端是平整的六角形开口，另一端是封闭的六角菱形的底，由三个相同的菱形组成。组成底盘的菱形的钝角为109° 28′，所有的锐角为70°32′，这样既坚固又省料。蜂房的巢壁厚0.073mm，误差极小。对于蜜蜂这种社会化极强的生物而言，建成六角形结构的蜂巢有以下好处：节约材料、体积大、体轻、容量大、易出入等。这种六角形的设计，可以使蜂群以最小的材料，得到最大的体积——不是单个体积最大化，而是所有的六角形聚积到一起时体积最小。同时这样的结构还意外地拥有远远超出这个物种所能认知的坚固强度。</p>
+<p>　　之所以我们用“预算、成本、资金、内控、税收筹划、IT与团队”等六边组成的蜂巢模型来定义精益态的财务管理范式，恰恰看中其投入产出比最优、结构稳定性最好这两大突出的优点。就组织内职能定位来看，财务体系显然是作为以缺点数来衡量其优劣的典型代表。因此，对于阿里·德赫斯所说的“生命型公司”而言（详见《长寿公司》一书），始终确保自身处于最优的投入产出比，并在不同经济周期下表现出一如既往的稳定性，恰恰是其将精益财务转化为强大组织基因之后的自然结果。</p>
+<p>超越全面预算：业务视野，更大弹性</p>
+<p>　　《首席财务官》早在七八年前就深入论述过国内以新会计准则实施为标志的以簿记现代化为主的“新财务运动”第一阶段，尽管大量中国企业仍然处于核算型财务的原生态，但在以五部委联合推出内控指引为标志的“新财务运动”第二阶段中，更具管理主动性的预算及内控显然已经成为推进中国企业财务管理体系现代化的两大主引擎。</p>
+<p>　　而对于越来越多处于行业领先地位的中国企业而言，运营端的动态变化速率正在超出原有的全面预算管理的理解范畴。这对于广大CFO们认清全面预算管理的核心作用与局限性，带来了强烈的紧迫性。</p>
+<p>　　我们先来回顾一下全面预算管理在财务体系现代化中的历史地位与价值。作为对现代企业成熟与发展起过重大推动作用的管理系统，全面预算管理是企业内部管理控制的一种主要方法。这一方法自从上个世纪20年代在美国的通用电气、杜邦、通用汽车公司产生之后，很快就成了大型工商企业的标准作业程序。从最初的计划、协调，发展到兼具控制、激励、评价等诸多功能的一种综合贯彻企业经营战略的管理工具，其在代理制下现代公司治理结构中的核心作用不言而喻。正如著名管理学家戴维·奥利所说的，全面预算管理是为数不多的几个能把企业的所有关键问题融合于一个体系之中的管理控制方法之一。</p>
+<p>　　从上述这段我们曾多次引用的标准教科书描述中，可以引申出两个重要信息：第一，全面预算管理是从近代企业管理向现代企业管理跃迁时涌现的众多管理工具中的一种，同时代的还有科学管理、流水线、事业部制等；第二，作为一种90多年前诞生的管理工具，全面预算管理对于业务波动性的反应速度存在着相当的滞后性（因为其诞生之初的竞争环境与当下有着巨大差异），CFO必须要进行流程和工具的改良，以提升其适用性。我们曾在三年前完成的定向案例研究——“巧搭预算七孔桥”，尝试运用标准构件的方式对全面预算管理的漏洞进行修补，并提炼出“全局为上、打足‘提前量’、和衷共济，保持刚性、强化管控、从‘长’计议、二八法则”等七个标准构件。</p>
+<p>　　在诸多的理论和实践中，我们认为，由Fraser和Hope提出的“超越预算”模型是一套更加值得学习和借鉴的预算改良方法论。尽管其创立的出发点在于将企业的关注点由控制向创新让渡，但在客观上，现行的全面预算管理对于运营动态变化速率大大加快的互联网时代，即使是传统的控制目标也早已变得力不从心，而且其“增加内部博弈成本、压低业务一线能动性、基于历史而非未来”等三大痼疾，在当下变得越来越突出。</p>
+<p>　　事实上，我们可以把“超越预算”视为一套对传统全面预算管理进行系统升级和改良的管理工具。“超越预算”有一套实用性极强的六大程序原则：1、目标——设定旨在持续改进的目标，而不是固定的年度目标；2、报酬——报酬建立在衡量企业成功的相对业绩的基础上，而不是建立在满足固定的目标值的基础上；3、计划——使计划成为一个持续的综合的过程，而不是一个年度事件；4、控制——以相关的关键业绩指标和业绩趋势为基础进行控制，而不是以与计划的差异为基础；5、资源——资源在需要时要可获得，而不是通过预算来配置；6、协调——要协调公司间的相互作用，而不是通过年度计划循环。</p>
+<p>　　“超越预算”在理念上有两个非常突出的变化，一个是以绩效最大化为目标，预算与实际的咬合率并不受到关注；另一个是赋予一线业务运营部门更大的执行弹性。为此，曾经的全球头号经理人杰克·韦尔奇对“超越预算”的理念赞赏有加，“预算是美国公司发展的一大障碍，应该彻底地放弃预算、预算根本不应该存在。制定预算就等于追求低绩效。你永远只能得到员工最低水平的贡献，因为每个人都在讨价还价，争取制定最低指标”。</p>
+<p>　　事实上，处于行业领先地位的公司已经开始将全面预算管理的着眼点从控制向推动绩效提升方向跃迁了。在联想集团扭亏为盈过程中发挥了重要作用的中国区CFO吴辉，甚至在考虑向业务部门派出相当数量的数据分析师，以提升财务体系的预判能力。而行业更为传统的万和物流集团财务总监李鸿宜也在强调，“让财务人员参与到业务流程中。”此外，备受瞩目的华为CFO孟晚舟日前在发布华为2014年报的致辞中透露，华为2014年启动多项财务改革，包括实施“预算管理全景图”确定、启动全球税务风险管理项目、启动数据质量管理工作等。尽管缺乏对华为“预算管理全景图”的运作细节了解，但综合各种公开报道的相关碎片资讯，其特征颇符合前述“超越预算”的诸多原则，比如其早在2013年起，就将80%的财务授权下放到项目组，20%统一调度权仍然保留在集团，即管理运作体系从以功能部门为中心向以项目为中心转移。显然，这是对传统全面预算管理弊端的强力修正。</p>
+<p>战略成本管理：亟需破坏性创新</p>
+<p>　　 传统的成本管理模型，在很大程度上备受行事严谨的老式C F O们喜爱。它的出现刚好和科学管理浪潮的兴起有着一定程度上的因果关系。</p>
+<p>　　1918年美国会计师卡特·哈里逊第一次设计出一套完整的标准成本系统，而这一管理会计方法给了科学管理创始人泰勒以极大启发，并在其倡导的科学管理浪潮中得到大力推广。直到上个世纪80年代，战略成本管理才由英国学者肯尼斯·西蒙兹首次提出，而后战略大师迈克尔·波特提出了运用价值链进行战略成本分析的一般方法，战略成本管理才得以成为一门炙手可热的新兴会计学科受到广泛关注。经过一系列的迭代，1998年，英国教授罗宾·库珀提出了以作业成本制度为核心的战略成本管理模式，这种模式的实质是在传统的成本管理体系中全面引入作业成本法，关注企业竞争地位和竞争对手动向的变化，它甚至直接催生出一种崭新的会计岗位——战略管理会计。</p>
+<p>　　但我们在此讨论的并不是会计学术范围内的战略成本管理，囿于传统的会计视角，即便是结合了ABC的成本管理体系，仍然是着眼于内部挖潜的常规动作。基于战略成本管理的理念诞生历程，我们可以判定，问题分析的深度往往决定着其成本改良的空间。而既然是常规动作，往往这种成本管理带来的竞争优势并非是战略性的，在战略成本管理理念刚刚传播到国内不久，邯钢和海航集团先后作为战略成本管理的标杆一度迎来了大量的企业参观学习，如今的邯钢早已不能成为在财务意义上成功的公司，而海航集团也在多元化的路上留下了太多的教训可鉴来者。</p>
+<p>　　那么，作为更高要求的蜂巢精益财务模型的重要一边，今天领先型的中国企业所要思考的是，如何建立起在战略上远远优于对手的成本结构体系，这在累进式改良的成本管理模式中几乎是不可能的任务，这也解释了中国制造业价格战之所以永无完结之日的悲剧。</p>
+<p>　　我们还是来看一个令人脑洞打开的案例。业内翘首已久的万达商业终于在2014年12月23日在港交所挂牌，招股价定于48港元，根据文件显示，该公司公开发售超额认购约5.32倍，募集资金金额高达288亿港元，成为香港市场年内最大额度招股的公司。值得注意的是，万达商业地产此次48港元的招股价，相对资产净值折让约46%至54%，在香港上市同业中处于比较高的水平。其他大型房企中，中海外、华润置地及万科现价折让在20%至36%之间，其中中海外为20%、华润置地24.5%，万科则为36%。</p>
+<p>　　当然最引人瞩目的还是在招股说明书中，万达首次对外披露了其拿地成本。其中2011年～2013年，万达商业地产的平均土地成本分别只有1821元/平方米、1171元/平方米和1096元/平方米，这固然与万达拿地城市的结构有关，但在最近几年土地价格节节攀升的背景下，土地成本仍能逐年压低绝对是令同业刮目相看的事情。据兰德咨询的报告显示，万达近三年的土地成本仅占其平均售价的9.18%，这在行业内是一个非常低的水平。以龙湖为例，2013年其土地成本占平均售价的比例为18.2%，万科则接近25%，四成以上的房企超过33%，只有6.4%的开发商土地成本低于平均售价的10%。</p>
+<p>　　答案只有一个，万达强悍的开发及后续运营能力是决定其拿地成本的关键因素，不少地方政府为了吸引万达项目的进驻，纷纷在土地价格上给予了很大的优惠，进而在税收和经济增长上录得满意效果。</p>
+<p>　　招股说明书显示，万达商业地产2013年的净利润达248.82亿元人民币，要知道此前公开财报的房企中最赚的中海地产，2013年的净利润也不过230.4亿港元（约为181.97亿元人民币），不足万达商业地产的四分之三。</p>
+<p>　　众所周知，地产行业的战略成本无非是拿地成本与融资成本，而往往地产公司CFO都把大量时间用于这两个战略成本项目的管理上，但结果却无法取得在市场上的明显战略成本优势。这也说明，按照罗宾·库珀的战略成本模式，往往你所能获得的充其量是一般性的成本优势，根本不具备绝杀能力。只有破坏性的创新，才可能帮助企业建立战略级的竞争成本优势。以万达商业地产为例，其高水准的招商和运营能力是拿地价格低于同业50%甚至80%的对价砝码。</p>
+<p>　　从中我们得到的最大启示是，只有跳出传统的战略成本视角，才可能获得真正形成战略成本优势的最佳答案。</p>
+<p><img src="/images/p2.jpg" alt="实现精益的蜂巢财务模型"></p>
+<p>动态资金管理：回归公司金融本体</p>
+<p>　　基于中国企业财资管理的现状，现金流的管理仍然是CFO一日不可放松的重头戏。这在很大程度上是由于现有的公司金融市场的有效性不足导致的。一方面，作为债权融资主要来源的银行仍然未能完全市场化运行，其以短期资金为主的业务模式，增大了企业运营的不确定性，导致企业被动性地持有超过正常运营现金流安全警戒线的现金；另一方面，作为股权融资的通道尚未全面打通，尽管IPO重启、注册制越走越近、新三板取得了超乎预期的进步，甚至股权众筹也被管理层以相当大的容忍度在尝试，但总体而言，股权融资仍然因较高的门槛而难以形成普惠的通道。</p>
+<p>　　因此，从普遍意义而言，在“花钱买平安”的压力之下，国内企业的资金管理效能处于较低水平。但是，隐含在不断提升融资现金流的表象之下的，是国内公司自由现金流创造严重不足的财务本质，换言之，是从运营活动现金流视角下的运营质量不高的直观表现。</p>
+<p>　　早在1 9 8 0年致股东的信中，巴菲特便指出，“对于并购的对象，我们偏爱那些‘产生现金’而非‘消化现金’的公司。”</p>
+<p>　　有研究显示，在2570家上市公司中，截至2014年三季度末实现正自由现金流的有1049家，占比约为40%。其中，从绝对值上看，自由现金流量超过100亿元的公司仅有3家，分别是上汽集团、首钢股份及西水股份；而自由现金流量超过50亿元的也只有区区5家，分别是首开股份、京投银泰、珠海港、武钢股份和中航资本。如果与上市公司市值（截至2014年11月21日）进行对比的话，自由现金流量能达到公司市值一半以上的公司也只有5家。考虑到去年底A股大幅上涨的背景，自由现金流量与公司市值之比会更加走低。</p>
+<p>　　自由现金流量是观察公司持续运营质量和增长潜力的一个绝佳窗口，用更简洁的表达方式就是指扣除营运资本投资与资本投资之后的经营活动所带来的现金流量。就增收的角度而言，持续创造利润并将其转化为现金流是根本之道。而就节支的角度而言，降低应收账款、存货等流动资产的资金占用，或流动负债增加，从而导致营运资本减少，也会增加企业的自由现金流。对此，千百度CFO徐庭裕直言不讳地表示，“2015年财务管理的首要重点就是现金为王，要高度重视从经营过程中获取现金能力的提升，重点做好存货的管控、应收账款的正常回款及合理的供应商的账期。”</p>
+<p>　　在刚刚结束的上一轮高增长经济周期中，由于对营运资本的追加有着近乎无底洞般的吞噬性需求，融资现金流和投资现金流两端的异常活跃，几乎成为了中国上市公司资金管理态势的标准作业模式。比如，Wind资讯统计显示，截至2014年6月末，共有220家非金融类A股公司参股上市金融机构，竟然占到两市公司总数的十分之一左右。显然，从长远看，这种急功近利的价值创造手段并不应成为运营的常态。而从去年开启的中速增长的经济周期，在去产能化的大背景下，营运资本的追加需求被大幅抑制，CFO们应把更多资金管理的注意力回归到运营活动现金流的公司金融本体上来。</p>
+<p>　　当然，考虑到国内企业的现状，负债结构的优化仍然是当前很多CFO的首要工作。行业重资产特征明显的钱江水利财务总监朱建表示，“在未来一年，充分利用资金面宽松和银行降准降息的时机，及时调整负债结构，降低财务成本，并利用时机适时储备资金，以满足主业的扩展需求。”</p>
+<p>　　而对于以资金运营为主业的金融业来说，公司金融的本体特征就会更为关键和明显。三井住友海上火灾保险(中国) CFO郑永强坦承，“现在的企业在财务管理上最大的问题和漏洞就是资金管理。因此资金管理一直是我们工作的重点，将一如既往地做好三方面的工作。第一，确保流动性。保险公司最关注的是流动性，我们需要向客户提供最及时、最完善的保障，所以流动性是我们最重要的考虑。我们有资金系统严格的实时监控公司的现金管理和收支，同时预测公司未来的现金流状况，预测频率将从周调整到日，确保流动性没有问题；第二，安全性，风险可控。我们设立了信用评级模型和风险控制体系，专门评估分析交易对手的信用情况和投资风险，定期发布信用评级报告和风险评估报告，及时调整交易对手的信用额度和改变投资策略和投资组合，防范信用风险和交易风险，确保公司资产安全；第三，关注盈利能力。在确保资产流动性和安全性的前提下，我们通过多种手段确保资产的盈利能力。比如，建立投资资产组合模型，通过调整投资组合在风险和流动可控的前提下，确保投资收益维持在较高的水平。”</p>
+<p>　　此外，需要提醒广大CFO的是，中短期内人民币出现阶段性贬值的可能性在显著上升，人民币汇率的变动由之前通过连续多年单向升值带给大批国内企业无风险收益的局面，正在变成一个需要锁定汇率防范黑天鹅式风险的巨大资金风险点。根据相关统计，2008年至2014年，受廉价的国际资本以及中国4万亿政策刺激，中国企业步入了快速海外举债的时期。截至2014年6月份的数据显示，中国境外银行债务敞口已经高达1.1万亿美元，债务余额全球第七位，新兴市场第一位，年均增速全球第一。</p>
+<p>内部控制：锁定新常态风险</p>
+<p>　　如前所述，蜂巢的坚固程度和稳定性，都是精益财务模型需要持之以恒追求的必要模块。在当前中国经济面临的所谓“三期叠加”的新常态之下，中国企业面临的经营风险和外部风险都在空前加大，因此传统的内部控制体系也应对应上述新常态作出适应性的功能进化，我们不妨对此进行逐一分析。</p>
+<p>　　首先是所谓“增长速度换挡期”带来的风险。基于中国经济已处于从高速换挡到中高速的发展时期，如同汽车换挡一样，相应地，作为组成宏观经济的每个微观经济单元都会受到这一过程的一系列冲击和重新磨合。首当其冲的就是观念上的冲击，作为一个持续保持了30多年两位数增长的经济体，当增长速度下滑到7%甚至更低的程度时，习惯了以规模扩张为主要价值创造手段的中国企业，必须要学会在营业规模只有小幅增长甚至停滞的情境下，保持公司的持续运营，同时设法改善盈利能力。所以，这部分风险的应对之道要义在于观念的与时俱进，要试着容忍业务零增长甚至负增长，平抑组织内总想一下子反转经营局面的盲目急躁情绪也很关键。</p>
+<p>　　其次是所谓“结构调整阵痛期”。过去中国经济增长中的高资源消耗、高污染、高利率、高负债，以及最近浮现的高汇率，都需要在新常态下进行结构调整，因此其所对应的由高向低的结构迁移，对于所处其中的企业来说，就产生了需要应对的新常态风险。因此，化解这部分风险的唯一解决之道，不在于内控部门如何采取技术性手段去应对，而是如何驱动公司战略决策者从业务端入手进行化解，比如提升设备技术水平、降低能耗、降低污染排放、优化负债结构、锁定与对冲汇率风险等等。</p>
+<p>　　第三是所谓“前期刺激政策消化期”。这主要是指在国际金融危机爆发初期，中国实施了一揽子经济刺激计划，现在这些政策还处于消化期。或者说，上述政策的正面效果正在减退，而其带来的负面效果则正在涌现。这其中有两个层面的风险，其一是货币发行量过大带来的流动性过剩却难以进入实体经济的顽症；其二是处于当时被刺激的主要行业（比如房地产、装备制造业等），由于意外的刺激政策所导致的企业生命周期曲线的变形，短期产能的急剧扩张、劳动力成本和资本开支的超常规扩大、坏账风险释放等等。这个往往也无法用传统的内控模型进行修正，而需要借助于关停并转等更强力的止血措施来迅速控制住局面的恶化。比如，链家集团CFO 田海涛在展望未来的内控工作时就明确表示，“链家集团主要面临两大财务风险：一是固定付现成本较高，包括门店成本和人工成本等，尤其是在市场下探幅度过大时会导致现金流紧张；二是在公司快速扩张时，如果进度控制不好，会导致资金消耗过快。”</p>
+<p>　　对比，我们的建议是重新思考和构建新常态下的内控体系建设的战略制高点。在这方面，早已实现全球化运营的华为在防范同样充满诸多无奈的海外市场风险时，其采用的内控应对策略就兼具前瞻性和系统性。2013年8月，华为在伦敦正式设立“财务风险控制中心”。该中心是华为全球财经组织的分支机构，在五大领域开展风险评估，包括市场风险、流动资产风险、运营风险、国家风险和交易对手风险。该中心同时设有一个信用管理部门，评估华为在MEMA（欧洲、中东和非洲）区域的运营风险。此外，还有一支专门的团队负责管理华为位于伦敦的国际银行和金融合作伙伴的关系。孟晚舟特别对于选择伦敦这个全球风控制高点做出了详细的解释，“伦敦是具有极高战略地位的全球金融中心。伦敦在金融领域的经验积累和人才积累，完全可以满足财经卓越运营的需求。同时，伦敦兼具语言和时区优势，是华为建立财务风控中心的理想地点。”</p>
+<p><img src="/images/p3.jpg" alt="实现精益的蜂巢财务模型"></p>
+<p>税收筹划：未雨绸缪的阳谋</p>
+<p>　　中央财经大学税收筹划与法律研究中心主任蔡昌在展望2015年税收变化时表示，“美国总统富兰克林有一句经典的名言，人类有两件事情是不可避免的：税收与死亡。税收治理必须纳在国家治理的范畴，税收也必须在法制化的轨道上。”不过，以《首席财务官》近10年来与国内CFO们打交道的经验来看，税收筹划方面的工作大家通常是只说不做，给人的感觉似乎这是一件不见光的事情。显然，这与国内目前名义税负畸高而征收过程问题较多有着直接的关系。中央财经大学副校长李俊生在接受本刊专访时明确表示，政府、立法和执法层面对税收筹划的观点正在发生积极转变，猫鼠博弈的心态难以适应新常态。</p>
+<p>　　先明确一下税收筹划的法律正义性。税收筹划来源于1935年英国的“税务局长诉温斯特大公”案。当时参与此案的英国上议院议员汤姆林爵士对税收筹划作了富于正义性的阐述：“任何一个人都有权安排自己的事业。如果依据法律所做的某些安排可以少缴税，那就不能强迫他多缴税收。”这一观点得到了法律界的广泛认同。在大量的实践之中逐渐形成的税收筹划定义是指，“在法律规定许可的范围内，通过对经营、投资、理财活动的事先筹划和安排，尽可能取得节税的经济利益。”</p>
+<p>　　从税收筹划定义出发来审视国内税负现状，有多个较为纠结的主要矛盾，包括名义税率过高、税法规条体系混乱且税种繁多，以及地方税收征管的弹性过大等等。这些主要矛盾集中的地方，就是CFO要拿出相当精力乃至要组建专门团队来应对的税收筹划主要节点。</p>
+<p>　　先看名义税负过高的问题。世界银行的研究成果表明，低收入国家的最佳宏观税负水平为13%左右；中下等收入国家的为20%左右；中上等收入国家的为23%左右；高收入国家的为30%左右。国税总局曾多次声明，国内的宏观税负约为20%，但是根据近年来财政收入的实际情况来看，国内宏观税负超过30%是普遍得到企业界和学术界公认的一个事实。因此，对企业而言意味着，在一个中下等发达的经济体中以达到或高出发达经济体税负水平的市场环境中运营，换言之，国内企业是在过负荷三分之一税务成本下参与全球市场竞争的。</p>
+<p>　　其次是税法规条体系的混乱且税种过多。从改革开放以来的1984年利改税、1994年分税制、2004年新税制改革的步伐看，每十年往往会进行一次税制的系统性制度变革。而2014年的营改增扩围尚难以称之为一个全方位的系统性变革，未来一两年内很可能会迎来税收法规、征收体制方面的重大变革。而对于过于繁琐的税种而言，前国税总局副局长许善达曾表示，“中国部分税种是要简化的，还有十几个税种可以大幅度减并，就留七八个足够了。”从纳税成本上的考量，税种的简化对于企业来说是个看似不明显但却实实在在的利好。</p>
+<p>　　第三是地方税收征管的弹性过大。去年底出台的《国务院关于清理规范税收等优惠政策的通知》，被视为国内传统税收筹划模式的终结。按照这一通知规定，地方政府通过税收招商引资的各种优惠将受到全面规范，将全面清理已有的各类税收优惠政策，各地区不得自行制定税收优惠政策，先征后返等减免土地出让收入等政策也将被强制取消。事实上，这是对税收筹划走向正轨的一个利好。因为地方政府税收征管弹性过大的话，极易导致那些较长周期的税收筹划方案的失效，而往往越长周期的税收筹划工作就越重要，额度也越大。因此，这种不确定性的消除，反而迫使越来越多的企业去研究自贸区、西部大开发等国家级税收优惠政策的应用。</p>
+<p>　　从操作上看，一方面是空间上的税收筹划，即在多种纳税方案中选择税负低的方案，也就意味着选择低的税收成本；另一方面是时间上的税收筹划，也就是纳税期的滞延，这在国内往往容易被忽视。延迟纳税相当于企业在滞延期内得到一笔与滞延税款相等的政府无息贷款，对于应锱铢必较的CFO们来说，也是一个不无小补的选择。</p>
+<p>　　当然，国内企业囿于纳税筹划的不见光心理，往往缺乏专职的税务团队，与更为专业的第三方机构合作的心态也不够开放。而随着税收法定的大前提形成共识、中央和地方分税制的重新调整，将纳税筹划变成“阳谋”的外在环境正在趋于阳光化，这是影响更为深远的利好。  </p>
+<p>IT与团队：轻型化、专业化、长期化</p>
+<p>　　作为蜂巢精益财务模型的最后一环，工具与人始终是持续推进财务精益化变革的驱动因素。目前，这两个因素都在发生比较大的变化。</p>
+<p>　　首先是IT工具。在云计算技术的快速普及下，原有的封闭式的信息化结构，面临着格局上的重大调整。以国内财务界耳熟能详的金蝶为例，其早在数年前就将业务重点全面转向移动互联网，力图抢先占据移动互联网尚未全面启动的B2B市场。</p>
+<p>　　随着手机对PC端的全面取代，移动互联网对公司信息化的各种碎片化冲击正在快速地、不可逆地汇聚成一股强劲的冲击波。比如，原本需要手工输入的ERP前端数据，在二维码技术的快速普及下，仓单（已经实现）、银行支付凭证（亟待互联网化）、电子发票（萌芽渐起），甚至合同（北京已开始用二维码全面推广“一日游”电子文本合同）等数据采集工作，均可以通过手机二维码扫描来实现。因此，企业级的移动互联网应该与传统的ERP部署有着极大的不同，轻型化、快速化、定制化等很可能成为新一轮IT应用的热点。</p>
+<p>　　从专业化的角度来说，基于移动互联网的IT解决方案，虽然对于云计算的存在，企业对于硬件投资的需求大大弱化了，但是对于细分领域应用的专业度反而会有明显的提升，原本在PC+服务器时代困扰企业信息化良久的定制化还是标准化问题，到了移动互联网时代，由于移动IT应用的小巧灵活，使得企业再度迎来IT应用的定制时代。</p>
+<p>　　而对于团队而言，则到了CFO们需要重新审视财务体系运作以及人才策略的关键节点。</p>
+<p>　　我们先来讨论财务体系的运作。随着财务共享中心在国内日益深入人心，不仅大型企业集团纷纷成立了专属的财务共享中心，连为小微企业进行财税记账服务的“会计在线”也推出了中小企业财务共享中心的服务，由于其增长潜力被各方看好，目前“会计在线”已经成功登陆新三板。也就是说，在移动互联网B2B服务更为完善的大背景下，以及财务共享中心的全面勃兴，财务体系的核算职能正在被快速剥离，因此全面转向管理会计就成为大势所趋，前面所述的蜂巢精益财务模型的五个维度，都是财务体系重点转型所在。</p>
+<p>　　因此，沟通能力、业务诊断能力、公司金融运作能力将成为实现蜂巢精益财务模型的过程中最迫切需要补充的复合型软技能。考虑到国内普遍的财务人员教育背景情况，上述三项能力的培养应该是一个相对漫长的过程，而且需要大量借助第三方专业培训机构的支持。因此，CFO们要做好持续构建团队的长期心理准备。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/收藏/" rel="tag"># 收藏</a>
+          
+            <a href="/tags/企业管理/" rel="tag"># 企业管理</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/05/17/Iron-Curtain-and-Compassion-Another-Conflicting-Face-in-Southeast-Asia/" rel="next" title="“铁幕”与“慈悲”：东南亚地区的另一幅冲突的面孔 ">
+                <i class="fa fa-chevron-left"></i> “铁幕”与“慈悲”：东南亚地区的另一幅冲突的面孔 
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="如理" />
+            
+              <p class="site-author-name" itemprop="name">如理</p>
+              <p class="site-description motion-element" itemprop="description">船行留痕，直心道场，修行是个孤独前行的过程，从听《成佛之道》算起正式修学佛法两年了，写下修学中的思考和问题，以不变之直心勇猛前行，激励自己不忘求真之初心。</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">如理</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
